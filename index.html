@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>CREATE ACCOUNT</h2>
+        </div>
+    <form action="" class="form" id="form">
+        <div class="frmControl">
+            <!-- Name -->
+            <div class="frmControl">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" name="name" id="name" placeholder="Al Araf">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small>Error Message</small>
+            </div>
+
+            <!-- user name -->
+            <div class="frmControl">
+            <label for="name">Enter User Name:</label>
+            <input type="text" name="name" id="user-name" placeholder="al.araf.109">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small>Error Message</small>
+            </div>
+
+            <!-- enter mail -->
+            <div class="frmControl">
+            <label for="name">Enter Your Mail:</label>
+            <input type="text" name="email" id="email" placeholder="al.araf.1092@gmail.com">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small>Error Message</small>
+            </div>
+
+            <!-- enter website -->
+            <div class="frmControl">
+            <label for="name">Enter Your Website:</label>
+            <input type="website" name="website" id="website" placeholder="https://github.com/alaraf1092">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small>Error Message</small>
+            </div>
+
+            <!-- enter password -->
+            <div class="frmControl">
+            <label for="name">Enter a Strong Password:</label>
+            <input type="password" name="password" id="password" placeholder="12345678#abcde">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small>Error Message</small>
+            </div>
+
+            <!--Re enter password -->
+            <div class="frmControl">
+            <label for="name">Enter the Password Again:</label>
+            <input type="password" name="password" id="password2" placeholder="12345678#abcde">
+            <i class="fa-solid fa-circle-xmark"></i>
+            <i class="fa-solid fa-circle-check"></i>
+            <small>Error Message</small>
+            </div>
+
+            <button type="submit">SUBMIT</button>
+
+        </div>
+        
+    </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

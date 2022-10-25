@@ -1,0 +1,110 @@
+body{
+    background-color: #38cbde;
+    font-family: 'Signika Negative', sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    background-color: floralwhite;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgb(26, 11, 11) ;
+    width: 500px;
+    max-width:100%;
+}
+.header{
+    background-color: #fff;
+    color: #38cbde;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+h2{
+    font-weight: bolder;
+}
+.header h2{
+    margin: 0;
+}
+
+.form{
+    padding: 30px 40px;
+}
+.frmControl{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.frmControl label{
+    display: inline-block;
+    margin-bottom: 1px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.frmControl input{
+    border: 2px solid #38cbde;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    font-weight: normal;
+    forced-color-adjust: rgb(94, 36, 36);
+    font-family: inherit;
+    
+    background-color: #d1f7fc;
+
+}
+
+::-webkit-input-placeholder{
+    color: rgb(5, 14, 15);
+    opacity: .45;
+    font-size: 14px;
+}
+.frmControl.success input{
+    border-color: #00c851;
+}
+.frmControl.success i.fa-circle-check{
+    visibility: visible;
+    color: #00c851;
+}
+.frmControl.error input{
+    border-color: #e74c3d;
+}
+.frmControl.error i.fa-circle-xmark{
+    visibility: visible;
+    color: #e74c3d;
+}
+.frmControl i{
+    position: absolute;
+    top: 34px;
+    right: -15px;
+    visibility: hidden;
+}
+.frmControl small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+}
+.frmControl.error small{
+    visibility: visible;
+    color: #e74c3d;
+}
+.form button{
+    margin-top: 45px;
+    font-family: inherit;
+    display: block;
+    width: 105%;
+    padding: 5px;
+    color: white;
+    background-color: #38cbde;
+    border: 3px solid #38cbde;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
